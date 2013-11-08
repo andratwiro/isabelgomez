@@ -1,0 +1,127 @@
+/*general stuff
+======================================*/
+
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family:'PT Sans';
+	height:100vh;
+	overflow: hidden;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	transition: ease all 1s;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #333333;
+	text-decoration: none;
+}
+
+.godamnCenter {
+	position:absolute;
+	width: 100%;
+	height: 100px;
+	margin-top:20vh;
+}
+.punchline {
+	display:table;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Montserrat', 'Open Sans', sans serif;
+	font-size: 32px;
+	color: white;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.hide {
+	display:none;
+}
+
+/*fonts
+=======================================*/
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratRegular.ttf');
+}
+@font-face {
+	font-family: 'Nexa Light';
+	src: url('../fonts/NexaLight.otf');
+}
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../fonts/PTSans.ttf');
+}
+
+h1 {
+	font-family:'Montserrat';
+}
+h2, h3, p {
+	font-family:'PT Sans';	
+}
+
+/*navigation bar
+========================================*/
+
+.navigationBar {
+	background: rgba(255, 255, 0, .4);
+	float: left;
+	height: 100vh;
+	width: 200px;
+}
+.navigationLogo {
+	color:black;
+	font-family:'Nexa Light';
+	font-size: 32px;
+	line-height: 28px;
+	padding: 30px 0 50px 40px;
+}
+.navigationSubLogo {
+	color: white;
+	font-family:'Nexa Light';
+	font-size: 19px;
+}
+.navigationMenu {
+	list-style-type: none;
+}
+
+
+.navigationMenu li {
+	font-family: 'Montserrat';
+	font-size: 18px;
+	margin-left: -40px;
+	padding: 15px 0 15px 40px;
+}
+
+.activeLink {
+	background: white;
+}
+/*=======================================*/
+
+
+
+/*home*/
+
+.backgroundImg {
+	height: auto;
+	margin: -50px 0 0 -50px;
+	min-width: 1360px;
+	position: absolute;
+	width: 110%;
+	z-index:-1;
+}
+/*content to the right*/
+
+.mainContent {
+	background: black;
+	color: white;
+	float:left;
+	height:100vh;
+	text-align: center;
+	width: 100%;
+}
