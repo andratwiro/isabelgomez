@@ -7,7 +7,6 @@
 		<title>Isabel Gómez</title>
 
 		<!--STYLESHEETS-->
-		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 
@@ -16,18 +15,27 @@
 		<div class='navigationBar'>
 			<div class='navigationLogo'>Isabel<br/>Gómez<br/><span class='navigationSubLogo'>psicóloga</span></div>
 			<ul class='navigationMenu'>
-				<button class='activeLink' id="indexMenu"><li>INICIO</li></button>
-				<button class='nonActiveLink' id="aboutMenu"><li>QUIEN SOY</li></button>
-        <button class='nonActiveLink' id="locationMenu"><li>DONDE</li></button>
-				<button class='nonActiveLink' id="contactMenu"><li>CONTACTA</li></button>
+				<a><li class='activeLink' id="indexMenu">INICIO</li></a>
+				<a><li class='nonActiveLink' id="aboutMenu">QUIEN SOY</li></a>
+				<a><li class='nonActiveLink' id="locationMenu">DONDE</li></a>
+				<a><li class='nonActiveLink' id="contactMenu">CONTACTA</li></a>
 			</ul>
 		</div>
-		<div class="show" id='index'>INDEX</div>
+		<div class="show" id='index'>
+			<div class="indexBoxTop"><p><span class="quotes" id="start">"</span>Frase super motivadora<span class="quotes" id="end">"</span></p></div>	
+				<!-- class "quotes" for setting them bigger and one line apart, too lazy ATM for thinking about how to code that-->
+			<div class="indexBoxTop"><p>text2</p></div>
+			<div class="indexBoxTop"><p>text3</p></div>
+			<br>
+			<div class="indexBoxBottom"><p>Otra frase super bonica</p></div>	
+			<div class="indexBoxBottom"><p>text2</p></div>
+			<div class="indexBoxBottom"><p>text3</p></div>
+		</div>
 		<div class="hide" id='about'>ABOUT</div>
 		<div class="hide" id='contact'>CONTACT</div>
 		<div class="hide" id='location'>LOCATION</div>
 	<!--SCRIPTS-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script src="js/script(L).js"></script>
+		<script src="js/script(L).js"></script>
 	</body>
 </html>

@@ -6,10 +6,12 @@ body, html {
 	overflow: hidden;
 }
 
+
 a {
 	color: black;
 	text-decoration: none;
 	transition: ease all 1s;
+	width: 100%;
 }
 
 a:hover {
@@ -18,33 +20,11 @@ a:hover {
 	text-decoration: none;
 }
 
-button {
-	background: none;
-	border: none;
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	right: 0px;
-	left: 0px;
-	color: black;
-	text-decoration: none;
-}
-
-button:visited {
-	cursor: none;
-	border: none;
-}
-
-button:hover {
-	color: #333333;
-	text-decoration: none;
-	border: none;
-}
-
 .flex {
 	display:-webkit-flex;
 	-webkit-flex-flow:row;
 }
+
 
 /*fonts*/
 
@@ -101,6 +81,48 @@ h2, h3, p {
 	padding: 15px 0 15px 40px;
 }
 
+.indexBoxTop {
+	width: 200px;
+	height: 150px;
+	border-radius: 10px 10px 0 0;
+	background-color: #505050;
+	opacity: 0.5;
+	
+	display: inline-block;
+	margin-top: 320px;
+	margin-left: 110px;
+	vertical-align: top;
+}
+
+.indexBoxTop p {
+	color: #9cc046;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	float: center;
+}
+
+.indexBoxBottom {
+	width: 200px;
+	height: 100px;
+	border-radius: 0 0 10px 10px;
+	background-color: white;
+	opacity: 0.5;
+	
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 110px;
+	vertical-align: top;
+}
+
+.indexBoxBottom p {
+	color: #6e8830;
+	text-align: center;
+	font-style: italic;
+	font-size: 17px;
+	float: center;
+}
+
 .activeLink {
 	background-color: white;
 }
@@ -128,7 +150,7 @@ h2, h3, p {
 	margin: -50px 0 0 -50px;
 	min-width: 1360px;
 	position: absolute;
-	width: 110%;
+	width: 100%;
 	z-index:-1;
 }
 /*content to the right*/
