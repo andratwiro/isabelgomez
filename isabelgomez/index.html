@@ -7,49 +7,35 @@
 		<title>Isabel Gómez</title>
 
 		<!--STYLESHEETS-->
-		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 
 	<body>
 		<img class='backgroundImg' src='img/background.png'>
 		<div class='navigationBar'>
-			<div class='navigationLogo'>Isabel<br />Gómez<br /><span class='navigationSubLogo'>psicóloga</span></div>
-				
+			<div class='navigationLogo'>Isabel<br/>Gómez<br/><span class='navigationSubLogo'>psicóloga</span></div>
 			<ul class='navigationMenu'>
-				<a href='index.html'><li class='activeLink'>INICIO</li></a>
-				<a href='location.html'><li>DONDE</li></a>
-				<a href='about.html'><li>QUIEN SOY</li></a>
-				<a href='contact.html'><li>CONTACTA</li></a>
-			</ul>	<!--
-			<ul class='navigationMenu hide'>
-				<a href='index.html'><li><b class='glyphicon glyphicon-home'></b></li></a>
-				<a href='location.html'><li><b class='glyphicon glyphicon-map-marker'></b></li></a>
-				<a href='about.html'><li><b class='glyphicon glyphicon-user'></b></li></a>
-				<a href='contact.html'><li><b class='glyphicon glyphicon-comment'></b></li></a>
-			</ul>-->
+				<button class='activeLink' id="indexMenu"><li>INICIO</li></button>
+				<button class='nonActiveLink' id="aboutMenu"><li>QUIEN SOY</li></button>
+        <button class='nonActiveLink' id="locationMenu"><li>DONDE</li></button>
+				<button class='nonActiveLink' id="contactMenu"><li>CONTACTA</li></button>
+			</ul>
 		</div>
-
-
-		<div class=''>
-			<div id='' class=''>
-				<div class='godamnCenter'>
-					<h1 class='punchline'>Inicio</h1>
-				</div>
-			</div>
-			<div id='' class='hide'>
-				<h1>Donde</h1>
-			</div>
-			<div id='' class='hide'>
-				<h1>Quien soy</h1>
-			</div>
-			<div id='' class='hide'>
-				<h1>Contacta</h1>
-			</div>
-		</div>
-
+		<div class="show" id='index'>INDEX</div>
+		<div class="hide" id='about'>ABOUT</div>
+		<div class="hide" id='contact'>CONTACT</div>
+		<div class="hide" id='location'>LOCATION</div>
 	<!--SCRIPTS-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-		<script src="js/bootstrap.js"></script>
+    <script src="js/script(L).js"></script>
 	</body>
 </html>
+
+<!--
+		Te encontraras alguno de estos. Son desvarios mentales sobre como voy a programar algo, yo aviso.
+		Me habias dicho que querias hacer que estuviese todo oculto y asi no tuviese que volver a cargar la web, super flooooooow
+		Podemos una hoja de estilo para index, otra para about, otra para contact y otra para location. Si utilizamos la libreria less podríamos copiar 		unas class de otra hoja de style, pero eso es un poco tonteria. el tema sería, mismo content en un index.html con todo, en plan diplicado, pero 		metiendo cada uno en un div
+		HOLD ON!
+		ni siquiera hay que cambiar el style, solo habria que poner un div por parte, y a cada uno de ellos poner el id show o hide. TACHAN!!
+-->

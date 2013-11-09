@@ -1,9 +1,6 @@
-/*general stuff
-======================================*/
+/*general stuff*/
 
 body, html {
-	margin: 0;
-	padding: 0;
 	font-family:'PT Sans';
 	height:100vh;
 	overflow: hidden;
@@ -21,29 +18,35 @@ a:hover {
 	text-decoration: none;
 }
 
-.godamnCenter {
-	position:absolute;
+button {
+	background: none;
+	border: none;
 	width: 100%;
-	height: 100px;
-	margin-top:20vh;
-}
-.punchline {
-	display:table;
-	margin: 0 auto;
-	text-align: center;
-	font-family: 'Montserrat', 'Open Sans', sans serif;
-	font-size: 32px;
-	color: white;
-	padding: 10px;
-	background-color: rgba(0,0,0,0.6);
+	margin: 0px;
+	padding: 0px;
+	right: 0px;
+	left: 0px;
+	color: black;
+	text-decoration: none;
 }
 
-.hide {
-	display:none;
+button:visited {
+	cursor: none;
+	border: none;
 }
 
-/*fonts
-=======================================*/
+button:hover {
+	color: #333333;
+	text-decoration: none;
+	border: none;
+}
+
+.flex {
+	display:-webkit-flex;
+	-webkit-flex-flow:row;
+}
+
+/*fonts*/
 
 @font-face {
 	font-family: 'Montserrat';
@@ -99,10 +102,23 @@ h2, h3, p {
 }
 
 .activeLink {
-	background: white;
+	background-color: white;
 }
-/*=======================================*/
 
+.nonActiveLink {
+	background-color: none;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+
+/*=======================================*/
 
 
 /*home*/
