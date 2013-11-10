@@ -4,14 +4,17 @@
 		<meta name='viewport' content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script(L).js"></script>
+		
 		<title>Isabel Gómez</title>
 
-		<!--STYLESHEETS-->
+		<!--STYLESHEET-->
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 
 	<body>
-		<img class='backgroundImg' src='img/Colored_Blured_Background.jpg'>
+		<img class='backgroundImg' src='img/Blured.jpg'>
 		<div class='navigationBar'>
 			<div class='navigationLogo'>Isabel<br/>Gómez<br/><span class='navigationSubLogo'>psicóloga</span></div>
 			<ul class='navigationMenu'>
@@ -32,10 +35,12 @@
 			<div class="indexBoxBottom"><p>text3</p></div>
 		</div>
 		<div class="hide" id='about'>ABOUT</div>
+		<div class="hide" id='location'>
+			<div id="mapCanvas"></div>
+		</div>
 		<div class="hide" id='contact'>CONTACT</div>
-		<div class="hide" id='location'>LOCATION</div>
 	<!--SCRIPTS-->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-		<script src="js/script(L).js"></script>
+		
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD6pdbZ_hCAc6ooM7kZoaYw-AusskWFS2g&sensor=false"></script>
 	</body>
 </html>
