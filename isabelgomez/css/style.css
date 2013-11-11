@@ -6,16 +6,19 @@ body, html {
 	overflow: hidden;
 }
 
-
-.backgroundImg {
+#backgroundImg {
+	background: url("../img/Blured.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*;
 	height: auto;
 	margin: -50px 0 0 -50px;
 	min-width: 1360px;
 	position: absolute;
 	width: 100%;
 	z-index:-1;
+	*/
 }
-
 
 a {
 	color: black;
@@ -141,7 +144,7 @@ h2, h3, p {
 	opacity: 0.5;
 	
 	display: inline-block;
-	margin-top: 350px;
+	margin-top: 200px;
 	margin-left: 110px;
 	vertical-align: top;
 }
@@ -175,6 +178,27 @@ h2, h3, p {
 	float: center;
 }
 
+.indexQuote {
+	margin: 50px 100px 0 350px;
+	border-left-color: black;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-color: #1c1c1c;
+	
+	font-style: italic;
+	font-size: 17px;
+	line-height: 23px;
+	color: #1c1c1c ;
+	opacity: 0.75;
+}
+
+.cite {
+	text-align: right;
+}
+
+#marker {
+	font-size: 30px;
+}
 /*about*/
 
 
