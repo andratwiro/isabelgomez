@@ -7,6 +7,16 @@ body, html {
 }
 
 
+.backgroundImg {
+	height: auto;
+	margin: -50px 0 0 -50px;
+	min-width: 1360px;
+	position: absolute;
+	width: 100%;
+	z-index:-1;
+}
+
+
 a {
 	color: black;
 	text-decoration: none;
@@ -25,6 +35,16 @@ a:hover {
 	-webkit-flex-flow:row;
 }
 
+#footer {
+	width: 100%;
+	position: absolute;
+	bottom: 4px;
+	
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;	
+	color: black;
+}
 
 /*fonts*/
 
@@ -81,48 +101,6 @@ h2, h3, p {
 	padding: 15px 0 15px 40px;
 }
 
-.indexBoxTop {
-	width: 200px;
-	height: 150px;
-	border-radius: 10px 10px 0 0;
-	background-color: #505050;
-	opacity: 0.5;
-	
-	display: inline-block;
-	margin-top: 320px;
-	margin-left: 110px;
-	vertical-align: top;
-}
-
-.indexBoxTop p {
-	color: #9cc046;
-	text-align: center;
-	font-style: italic;
-	font-size: 25px;
-	float: center;
-}
-
-.indexBoxBottom {
-	width: 200px;
-	height: 100px;
-	border-radius: 0 0 10px 10px;
-	background-color: white;
-	opacity: 0.5;
-	
-	display: inline-block;
-	margin-top: 15px;
-	margin-left: 110px;
-	vertical-align: top;
-}
-
-.indexBoxBottom p {
-	color: #6e8830;
-	text-align: center;
-	font-style: italic;
-	font-size: 17px;
-	float: center;
-}
-
 .activeLink {
 	background-color: white;
 }
@@ -155,13 +133,46 @@ h2, h3, p {
 
 /*index*/
 
-.backgroundImg {
-	height: auto;
-	margin: -50px 0 0 -50px;
-	min-width: 1360px;
-	position: absolute;
-	width: 100%;
-	z-index:-1;
+.indexBoxTop {
+	width: 200px;
+	height: 150px;
+	border-radius: 10px 10px 0 0;
+	background-color: #505050;
+	opacity: 0.5;
+	
+	display: inline-block;
+	margin-top: 350px;
+	margin-left: 110px;
+	vertical-align: top;
+}
+
+.indexBoxTop p {
+	color: #9cc046;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	float: center;
+}
+
+.indexBoxBottom {
+	width: 200px;
+	height: 100px;
+	border-radius: 0 0 10px 10px;
+	background-color: white;
+	opacity: 0.5;
+	
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 110px;
+	vertical-align: top;
+}
+
+.indexBoxBottom p {
+	color: #6e8830;
+	text-align: center;
+	font-style: italic;
+	font-size: 17px;
+	float: center;
 }
 
 /*about*/
