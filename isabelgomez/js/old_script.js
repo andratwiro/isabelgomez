@@ -27,7 +27,7 @@ $(document).ready(function(){
 	});
 });
 
-//This code comes from--> http://jsfiddle.net/aCx6L/ it's f**king brilliant
+//Code from google API documentation and-> http://jsfiddle.net/aCx6L/
    function initialize() {
         var myLatLng = new google.maps.LatLng(42.2377, -8.7148336);
         var mapCanvas = document.getElementById('mapCanvas');
